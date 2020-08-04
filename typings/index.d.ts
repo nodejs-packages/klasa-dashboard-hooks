@@ -23,7 +23,7 @@ declare module 'klasa-dashboard-hooks' {
 		public server: Server;
 		public routes: RouteStore;
 		public middlewares: MiddlewareStore;
-		public dashboardUsers: DataStore<string, DashboardUser, typeof DashboardUser>;
+		public dashboardUsers: BaseManager<string, DashboardUser, typeof DashboardUser>;
 	}
 
 	export { DashboardClient as Client };

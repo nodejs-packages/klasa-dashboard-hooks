@@ -70,7 +70,7 @@ class DashboardClient extends Client {
 		/**
 		 * The cache where oauth data is temporarily stored
 		 * @since 0.0.1
-		 * @type {DataStore}
+		 * @type {BaseManager}
 		 * @name DashboardClient#dashboardUsers
 		 */
 		this.dashboardUsers = new BaseManager(this, undefined, DashboardUser);
