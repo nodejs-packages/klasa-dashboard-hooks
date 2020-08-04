@@ -13,7 +13,7 @@ declare module 'klasa-dashboard-hooks' {
 	import { Server as HttpServer, IncomingMessage, ServerResponse } from 'http';
 	import { SecureContextOptions, Server as HttpSecureServer } from 'tls';
 	import { Http2SecureServer } from 'http2';
-	import { DataStore, Collection, Permissions } from 'discord.js';
+	import { BaseManager, Collection, Permissions } from 'discord.js';
 
 //#region Classes
 
